@@ -1,0 +1,34 @@
+{
+  "name": "astro-moderne",
+  "version": "1.0.0",
+  "description": "A site for selling retro automobiles.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinedsel/astro-moderne.git"
+  },
+  "keywords": [
+    "cars",
+    "retro",
+    "inventory",
+    "responsive",
+    "javascript",
+    "bootstrap",
+    "video",
+    "images"
+  ],
+  "author": "R. L. Gregory IV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinedsel/astro-moderne/issues"
+  },
+  "homepage": "https://github.com/vinedsel/astro-moderne#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "npm": "^6.10.2",
+    "slick": "^1.12.2"
+  }
+}
