@@ -28,6 +28,7 @@
   "homepage": "https://github.com/vinedsel/astro-moderne#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "npm": "^6.10.2",
     "slick": "^1.12.2"
   }
