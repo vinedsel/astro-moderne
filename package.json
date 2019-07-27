@@ -18,7 +18,8 @@
     "javascript",
     "bootstrap",
     "video",
-    "images"
+    "images",
+    "carousel"
   ],
   "author": "R. L. Gregory IV",
   "license": "ISC",
