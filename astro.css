@@ -1,4 +1,4 @@
-/* For Media Queries */
+/* Media Queries */
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -111,3 +111,43 @@
 
 /* ______________________________________________ */
 
+/* 1/3 */
+
+.container1 {
+  background-color: #222629;
+  width: 100%;
+}
+
+#svg {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+
+/*navigation bar*/
+
+.navbar {
+}
+
+.navlink {
+  
+}
+
+.navlink.active {
+  
+}
+
+ul {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+
+}
+
+li {
+  position: relative;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
