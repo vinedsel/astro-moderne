@@ -114,40 +114,41 @@
 /* 1/3 */
 
 .container1 {
+  margin: 0 auto;
   background-color: #222629;
   width: 100%;
+  height: 100%;
 }
 
 #svg {
   display: block;
   margin: 0 auto;
-  width: 75%;
+  width: 80%;
 }
 
 /*navigation bar*/
 
+
 .navbar {
-}
-
-.navlink {
-  
-}
-
-.navlink.active {
+  background-color: #222629;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
   
 }
 
 ul {
   position: relative;
-  display: inline-flex;
-  justify-content: center;
-
+  display: block;
+  margin: 0 auto;
+  justify-content: center;  
 }
 
 li {
-  position: relative;
+  justify-content: space-around;
   display: inline-flex;
-  padding-top: 20px;
-  padding-right: 20px;
-  text-align: center;
+  padding-right: 75px;
+  padding-left: 75px;
 }
+
