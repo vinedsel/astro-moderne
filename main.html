@@ -15,46 +15,70 @@
 </head>
 
 <body>
-  
-    <!-- 1/3 Header -->
-    <header>
-      <div class="container1">
-        <img src="images/svg/header1SVG.svg" alt="headstock" id="svg">
-      </div>
+
+  <!-- 1/3 Header -->
+  <header>
+    <div class="container1">
+      <img src="images/svg/header1SVG.svg" alt="headstock" id="svg">
+    </div>
+    
+    <!-- navigation bar -->
+    <div class="navContainer">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"></a>
       
-      <!-- navigation bar -->
-      <div class="navContainer">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-list">
         
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbar-list">
-          
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Main<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="inventory.html">Inventory</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <div class="navbar-nav">
+    
+          <li class="nav-active">
+            <div id="main"><a class="nav-link" href="main.html">Main<span
+                  class="sr-only">(current)</span></a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div id="inventory"><a class="nav-link" href="inventory.html">Inventory</a></div>
+          </li>
+          <li class="nav-item">
+            <div id="contact"><a class="nav-link" href="contact.html">Contact</a></div>
+          </li>
+          <li class="nav-item">
+            <div id="about"><a style="hover:yellow;" class="nav-link" href="about.html">About</a></div>
+          </li>
+        
       </div>
-   
+    </nav>
+    </div>
+  
 
-    </header>
+  </header>
 
+
+
+  <!-- 3/3 -->
+
+  <footer>
+    <div class="container3">
+      <div class="sock">
+      <p class="bigHead">CONTACT</p>
+      <p class="subHead">Main Phone</p>
+      <p>512-765-0004</p>
+      
+        <nav class="nav nav-pills flex-column flex-sm-row">
+          <a class="flex-sm-fill text-sm-center nav-link active" href="#">Active</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+          <a class="flex-sm-fill text-sm-center nav-link disabled" href="#">Disabled</a>
+        </nav>
+
+      </div>
+    </div>
+  </footer>
 
     <!-- Scripts -->
     

@@ -152,3 +152,41 @@ li {
   padding-left: 75px;
 }
 
+.navbar-nav>li>div>.nav-link {
+  color: #88BDBC !important;
+  text-decoration: none;
+}
+
+.navbar-nav>.nav-active>div>a {
+  color: yellow !important;
+  text-decoration: none;
+}
+
+/* 3/3 */
+
+.container3 {
+  margin: 0 auto;
+  background-color: #222629;
+  width: 100%;
+  height: 100%;
+}
+
+.sock {
+  margin: 25%;
+  padding-top: 3%;
+  height: 100%;
+}
+
+.bigHead {
+  padding-bottom: 1%;
+  font-size: 1.2rem;
+}
+
+.subHead {
+  text-decoration: bold;
+}
+
+p {
+  color: #88BDBC;
+  
+}
