@@ -158,7 +158,7 @@ li {
 }
 
 .navbar-nav>.nav-active>div>a {
-  color: yellow !important;
+  color: rgb(243, 243, 117) !important;
   text-decoration: none;
 }
 
