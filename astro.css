@@ -189,14 +189,6 @@ li {
   color: #88BDBC;
 }
 
-#navbar>.nav-active>div>.nav-link>a:hover {
-  color: rgb(243, 243, 117) !important;
-}
-
-.dropdown-toggle {
-  color: none;
-}
-
 .nav-item>a:hover {
   color: rgb(243, 243, 117);
 }
