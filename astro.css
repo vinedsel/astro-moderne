@@ -128,6 +128,9 @@
 
 /*navigation bar*/
 
+button {
+  color: rgb(243, 243, 117);
+}
 
 .navbar {
   background-color: #222629;
@@ -162,6 +165,11 @@ li {
   text-decoration: none;
 }
 
+.navbar-nav>.nav-active>div>a:hover {
+  color: rgb(243, 243, 117) !important;
+  text-decoration: none;
+}
+
 /* 3/3 */
 
 .container3 {
@@ -177,16 +185,75 @@ li {
   height: 100%;
 }
 
-.bigHead {
-  padding-bottom: 1%;
-  font-size: 1.2rem;
+.nav-link {
+  color: #88BDBC;
 }
 
-.subHead {
-  text-decoration: bold;
+#navbar>.nav-active>div>.nav-link>a:hover {
+  color: rgb(243, 243, 117) !important;
+}
+
+.dropdown-toggle {
+  color: none;
+}
+
+.nav-item>a:hover {
+  color: rgb(243, 243, 117);
 }
 
 p {
   color: #88BDBC;
-  
+}
+
+.dropdown-menu {
+  background-color: #88BDBC;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.reachOut {
+  margin-bottom: -1px;
+  color: #222629;
+  background-color: #88BDBC;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.email {
+  margin-bottom: 4px;
+}
+
+.mailer {
+  color: #222629;
+  text-align: left;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.socialLinks {
+  color: #88BDBC;
+  margin-left: 10%;
+}
+
+.socialLinkAlpha {
+  color: #88BDBC;
+}
+
+.container3>.sock>.socialRow {
+  text-align: center;
+}
+
+.fab {
+  margin-top: 10%;
+}
+
+.socialRow>a:hover {
+  color: rgb(243, 243, 117);
+}
+
+.trademark {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.dropdown {
+
 }
