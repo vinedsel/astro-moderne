@@ -175,22 +175,75 @@ li {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: grey;
+  background: #474B4F;
 }
 
-#main {
+#mid {
   overflow: auto;
-  
+  background-color: #88BDBC;
+  width: 65%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+h1 {
+  color: #222629;
+  text-align: center;
+  padding-top: 10%;
+  font-family: 'Herr Von Muellerhoff',
+  cursive;
+  font-size: 7vw;
+}
+
+#line {
+  margin-top: -1.5%;
+  color: #222629;
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 2vw;
+}
+
+.w-engine-m {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  padding-top: 56.25%;
+  width: 80%;
+  height: 80%;
+  margin-bottom: 5%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 25px;
+}
+
+#w-enginetext {
+  color: #222629;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Source Sans Pro",
+  sans-serif;
+  padding-top: 2%;
+  font-size: 2vh;
 }
 
 /* 3/3 */
 #footer {
   clear: both;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   height: 400px;
   background: #222629;
+  padding-top: 10px;
 }
 
 .nav {
@@ -210,10 +263,6 @@ a.nav-link:hover {
   background-color: #88BDBC;
   padding-left: 4%;
   padding-right: 4%;
-}
-
-.nav-item {
-  color: rgb(243, 243, 117);
 }
 
 .reachOut {
@@ -256,7 +305,7 @@ a.mailer:hover {
   color: #88BDBC;
 }
 
-a.socialLinks:hover {
+.socialRow>a:hover {
   color: rgb(243, 243, 117);
   transition: ease-in .3s;
 }
