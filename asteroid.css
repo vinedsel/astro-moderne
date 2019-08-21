@@ -150,6 +150,7 @@ li {
   padding-right: 75px;
   padding-left: 75px;
   margin: 0 auto;
+  list-style: none;
 }
 
 #navbar {
@@ -233,6 +234,37 @@ iframe {
   sans-serif;
   padding-top: 2%;
   font-size: 2vh;
+}
+
+/*Carousel*/
+
+#carousel {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.slideCap {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+img {
+  border-radius: 25px;
+  width: 100%;
+  height: 90%;
 }
 
 /* 3/3 */
