@@ -320,7 +320,14 @@ h4 {
   color: #88BDBC;
 }
 
-
+.about {
+  color: #222629;
+  margin-left: 28%;
+  margin-right: 28%;
+  font-size: 2vh;
+  font-family: "Source Sans Pro",
+  sans-serif;
+}
 
 /* 3/3 */
 #footer {
