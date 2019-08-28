@@ -203,6 +203,7 @@ h1 {
   text-align: center;
   padding-bottom: 2%;
   font-size: 2vw;
+  margin-top: -5%;
 }
 
 .w-engine-m {
@@ -243,7 +244,7 @@ iframe {
   margin: 0 auto;
   width: 80%;
   height: auto !important;
-  padding-bottom: -20%;
+  padding-bottom: 3%;
 }
 
 .showcase {
@@ -252,7 +253,7 @@ iframe {
   margin-bottom: 50px;
   width: 100%;
   height: auto;
-  margin-bottom: -20px;
+  margin-bottom: -10px;
 }
 
 .slideCap {
