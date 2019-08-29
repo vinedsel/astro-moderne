@@ -294,24 +294,30 @@ input {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 1%;;
 }
 
-#stack {
-  margin: 1%;
+div.stack {
+  margin: 2%;
+  
 }
 
 article {
-  justify-content: center;
   background-color: #222629;
-  width: 400px;
-  height: 100%;
-  margin: 1%;
+  max-width: 350px;
+  height: auto;
+  margin: 0 auto;
   padding-top: 15px;
+  flex-wrap: wrap;
+  margin-right: 10px;
 }
 
 #card {
   display: block;
   margin: 0 auto;
+  width: 90%;
+  height: auto;
+  display: flex;
 }
 
 h4 {
