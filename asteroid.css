@@ -294,7 +294,7 @@ input {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 1%;;
+  width: 90%;
 }
 
 div.stack {
@@ -310,6 +310,9 @@ article {
   padding-top: 15px;
   flex-wrap: wrap;
   margin-right: 10px;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #card {
@@ -318,11 +321,28 @@ article {
   width: 90%;
   height: auto;
   display: flex;
+  border-radius: 10px;
 }
 
 h4 {
   text-align: center;
   color: #88BDBC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Source Sans Pro",
+  sans-serif;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: double;
+  border-width: 0;
+  background-color: #88BDBC;
+  color: #222629;
 }
 
 .about {
