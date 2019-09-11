@@ -32,3 +32,15 @@ function myFunction() {
     }
   }
 }
+
+// Tax function
+
+// assign additional var that will take the final price and add the tax to it...
+
+$('#tableMain').on('click', '.calc', function () {
+  var curRow = $(this).closest("tr");
+  var col1 = parseInt(curRow.find(".value2").html());
+  var finPrice = col1 * '.08';
+  var combPrice = col1 + finPrice;
+  alert('$' + combPrice + '.00');
+});
