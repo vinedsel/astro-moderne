@@ -297,22 +297,18 @@ input {
   width: 90%;
 }
 
-div.stack {
-  margin: 2%;
-  
-}
-
 article {
   background-color: #222629;
   max-width: 350px;
   height: auto;
   margin: 0 auto;
   padding-top: 15px;
+  padding-bottom: 15px;
   flex-wrap: wrap;
   margin-right: 10px;
   border-radius: 20px;
-  padding-bottom: 10px;
   margin-bottom: 10px;
+  margin-left: 15px;
 }
 
 #card {
@@ -333,7 +329,27 @@ h4 {
   sans-serif;
 }
 
-button {
+#listPrice {
+  color: #88BDBC;
+  text-align: center;
+  display: block;
+}
+
+span.value2 {
+  display: block;
+  text-align: center;
+  color: #88BDBC;
+}
+
+button.calc {
+  margin: 0 auto;
+  display: block;
+  background-color: #222629;
+  border: 0px;
+  margin-top: 5px;
+}
+
+.calc>p {
   margin: 0 auto;
   display: block;
   margin-bottom: 5px;
@@ -342,7 +358,7 @@ button {
   border-style: double;
   border-width: 0;
   background-color: #88BDBC;
-  color: #222629;
+  color: #222629 !important;
 }
 
 .about {
