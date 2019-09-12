@@ -1,16 +1,3 @@
-// Carousel
-
-$(document).ready(function(){
-  $(".showcase").slick({
-    dots: false,
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    fade: true
-  });
-});
-
-
 
 // Search Engine
 
@@ -37,10 +24,10 @@ function myFunction() {
 
 // assign additional var that will take the final price and add the tax to it...
 
-$('#tableMain').on('click', '.calc', function () {
+$('#stack').on('click', '.calc', function () {
   var curRow = $(this).closest("tr");
   var col1 = parseInt(curRow.find(".value2").html());
-  var finPrice = col1 * '.08';
-  var combPrice = col1 + finPrice;
-  alert('$' + combPrice + '.00');
+  // var finPrice = col1 * '.08';
+  // var combPrice = col1 + finPrice;
+  alert(.value2);
 });
