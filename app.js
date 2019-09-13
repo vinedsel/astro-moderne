@@ -6,7 +6,7 @@ function myFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
-  ul = document.getElementById("stack");
+  ul = document.getElement("stack");
   li = ul.getElementsByTagName("h4");
 
   // Loop through all list items, and hide those who don't match the search query
@@ -22,12 +22,19 @@ function myFunction() {
 
 // Tax function
 
-$('#stack').on('click', '.calc', function () {
+// $('#stack').on('click', '.calc', function taxFunction() {
+//   var curRow = $(this).closest("article");
+//   var col1 = parseInt(curRow.find(".value2").html());
+//   var finPrice = col1 * '.08';
+//   var combPrice = col1 + finPrice;
+//   alert('$' + combPrice + '.00');
+// });
+
+
+$(".calc").click(function() {
   var curRow = $(this).closest("article");
   var col1 = parseInt(curRow.find(".value2").html());
   var finPrice = col1 * '.08';
   var combPrice = col1 + finPrice;
   alert('$' + combPrice + '.00');
 });
-
-
